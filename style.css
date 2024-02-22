@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.rating-img {
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+
+}
+
+.rating {
+
+    font-size: 15px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+
+.chef {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.main-page-cover-image {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.home-logo {
+    height: 40px;
+    width: 40px;
+}
+
+#home-page-links5 {
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+#home-page-links4 {
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+#home-page-links3 {
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+#home-page-links2 {
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+#home-page-links1 {
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+#home-page-links5 {
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+.main-h1 {
+    color: lightgray;
+    font-weight: bold;
+    font-family: caveat;
+    margin-top: 70px;
+}
+
+.main-h3 {
+    color: lightgray;
+    font-weight: bold;
+    font-family: caveat;
+    margin-top: 20px;
+}
+
+.main-h2 {
+    color: gray;
+    font-weight: bold;
+    font-family: caveat;
+    margin-top: 20px;
+}
+
+.button {
+    height: 40px;
+    width: 120px;
+    border-radius: 7px;
+    border-width: 0px;
+    color: #ffffff;
+    background-color: black;
+    margin: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+
+}
+
+.button-offer {
+    height: 40px;
+    width: 120px;
+    border-radius: 7px;
+    border-width: 0px;
+    color: #ffffff;
+    background-color: teal;
+    margin: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+
+}
+
+.back-button {
+    height: 40px;
+    width: 120px;
+    border-radius: 7px;
+    border-width: 0px;
+    color: white;
+    background-color: #cb202d;
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.back-button1 {
+    height: 40px;
+    width: 120px;
+    border-radius: 7px;
+    border-width: 0px;
+    color: white;
+    background-color: #222222;
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.button-order {
+    height: 40px;
+    width: 120px;
+    border-radius: 7px;
+    border-width: 0px;
+    color: white;
+    background-color: #cb202d;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.para {
+    font-family: caveat;
+    color: #cac600;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-heading {
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.item-card {
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.explore-menu-section {
+    background-color: #ffffff;
+}
+
+.starters {
+    border-radius: 20px;
+
+}
+
+.veg-h1 {
+    font-weight: 150;
+    font-size: 30px;
+}
+
+.veg-starters-link {
+    font-weight: 400;
+    font-size: 20px;
+    color: #d0b200;
+    font-family: roboto;
+}
+
+.veg-starters-heading {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.veg-starters-description {
+    color: #959ead;
+}
+
+.horizontal-line {
+    width: 100%;
+    background-color: red;
+    height: 1px;
+}
+
+.veg-starters-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.veg-starter-img {
+    border-radius: 20px;
+}
+
+.veg-cost {
+    font-family: Roboto;
+    font-weight: 150;
+
+    font-size: 20px;
+    color: brown;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.but {
+    text-align: right;
+}
+
+.butt {
+    color: #ffffff;
+    background-color: #cb202d;
+    border-width: 0px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.bg-maincontainer {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.main-h1-biryani {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.biryani-para {
+    color: gray;
+}
+
+.biryani-hr-line {
+    width: 100%;
+
+    height: 1px;
+    background-color: red;
+}
+
+.biryanis-img {
+    border-radius: 10px;
+
+}
+
+.cards {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+.bu {
+    color: #ffffff;
+    background-color: #cb202d;
+    border-width: 0px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px
+}
+
+.b {
+    text-align: right;
+}
+
+.heading-biryani {
+    font-weight: 400;
+}
+
+.background {
+    background-color: white;
+}
+
+.container {
+    font-family: Roboto;
+    padding-top: 10px;
+}
+
+.saladpara {
+    color: brown;
+    padding-bottom: 1px;
+}
+
+.h11 {
+    font-size: 20px;
+    padding-top: 0px;
+    color: teal;
+}
+
+.cardsalad {
+    border-radius: 20px;
+}
+
+.imagesalad {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.offers {
+    border-radius: 20px;
+
+}
+
+.mainswitch {
+    color: #ffffff;
+    background-color: #cb202d;
+    border-width: 0px;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+
+
+}
+
+.back-button2 {
+    height: 40px;
+    width: 120px;
+    border-radius: 7px;
+    border-width: 0px;
+    color: white;
+    background-color: #222222;
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.image-props {
+    border-radius: 15px;
+}
+
+.sec-heading {
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.main-headingra {
+    color: #183b56;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.gtr {
+    background-color: #f5f7fa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card0 {
+    border-width: 0px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #870000, #190a05);
+}
+
+.card2 {
+    border-width: 0px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #fa709a, #fee140);
+}
+
+.card6 {
+    border-width: 0px;
+    border-radius: 10px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.card7 {
+    border-width: 0px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #eacda3, #d6ae7b);
+}
+
+.card3 {
+    border-width: 0px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #868f96, #596164);
+}
+
+.parado {
+    color: #1f2933;
+}
+
+.bgr {
+    background-color: #ffffff;
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.omg-h1 {
+    font-family: Roboto;
+    color: #183b56;
+    font-weight: bold;
+}
+
+.pa {
+    color: #616c7c;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.imagelogo {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+.second-h1 {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 27px;
+}
+
+.cardservices {
+    border-width: 0px;
+}
+
+.para-2 {
+    color: #616c7c;
+    font-size: 15px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+
+.main-bg-follow {
+    background-color: #19232d;
+}
+
+.logger {
+    height: 120px;
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.icons-imgs {
+    font-size: 30px;
+    color: #5a7184;
+}
+
+.sub-paras {
+    color: #5a7184;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.heading-contact {
+    color: #5a7184;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.horizontal-lines {
+    background-color: #5a7184;
+    width: 100%;
+    height: 1px;
+}
+
+.icon-setting {
+    background-color: #202b36;
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin: 15px;
+    padding-right: 15px;
+}
+
+.spa {
+    color: orange;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.spany {
+    color: green;
+    font-weight: bold;
+}
+
+.partners {
+    height: 100px;
+    width: 200px;
+}
+
+.partner {
+    height: 100px;
+    width: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.partne {
+    height: 60px;
+    width: 60px;
+}

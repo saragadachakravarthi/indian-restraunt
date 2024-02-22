@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed">
+            <a class="navbar-brand" href="#"><img src="https://img.freepik.com/premium-vector/indian-restaurant-vector-icon-with-elephant-green-leaf-spice-tea-traditional-food-india-cuisine-chef-menu-isolated-symbol-with-orange-head-elephant-animal-ganesh-god_8071-9474.jpg" class="logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" onclick='display("sectionrestaurenthomepage")' id="home-page-links5" href="#sectionrestaurenthomepage">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link " id="home-page-links3">Profile</a>
+                    <a class="nav-link" id="home-page-links1" href="#">Features</a>
+                    <a class="nav-link" id="home-page-links2" href="#">About Us</a>
+                    <a class="nav-link " onclick='display("sectionourservices")' id="home-page-links5" href="#sectionourservices">Our services</a>
+                    <a class="nav-link" id="home-page-links4">Logout</a>
+                </div>
+            </div>
+        </nav>
+    
+        <div id="sectionrestaurenthomepage">
+            <div class="main-page-cover-image d-flex flex-column justify-content-start">
+                <div class="text-center">
+                    <h1 class="main-h1 ">Make your festivals more brighter with our delicious food </h1>
+    
+                    <h1 class="main-h2 ">Low cost High quality </h1>
+                    <p class="para">Serving Since 1996</p>
+                    <button class='button' onclick="display('sectionmenu')">View Menu</button>
+                    <button class='button-order'>Order Now</button>
+                    <button class='button-offer' onclick="display('sectionoffers')">View Offers</button>
+                </div>
+            </div>
+        </div>
+        <div id="sectionmenu">
+            <div class="explore-menu-section pt-5 pb-3">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="menu-heading  ">Explore Menu</h1>
+                            <div class="text-right">
+                                <button class="back-button " onclick="display('sectionrestaurenthomepage')">Back</button>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/close-up-plate-with-chicken-nuggets_23-2147765459.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>veg-starters</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.5</p>
+                                    </div>
+                                </div>
+                                <h1 class="veg-starters-link" onclick="display('sectionvegstarters')">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/top-view-fried-chicken-with-variety-three-sauces_23-2148646572.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>non-veg starters</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.7</p>
+                                    </div>
+                                </div>
+                                <h1 class="veg-starters-link" onclick="display('sectionnonvegstarters')">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/premium-photo/boiled-rice-vegetables-risotto-black-plate-top-view-free-copy-space_187166-61261.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>fried rice</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.2</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/premium-photo/plate-food-with-chicken-rice-dish-it_667286-675.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>Biryanis</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.9</p>
+                                    </div>
+                                </div>
+                                <h1 class="veg-starters-link" onclick="display('sectionbiryanis')">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/top-view-noodles-bowl_23-2148803832.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>Noodles</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.1</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/autumn-salad-baked-pumpkin-chorizo-mozzarella-concept-healthy-eating-concept-autumn-nutrition_127032-2738.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>salads</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.1</p>
+                                    </div>
+                                </div>
+                                <h1 onclick="display('sectionsalads')" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/slice-chocolate-brownie-with-walnut-vanilla-ice-cream_114579-778.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>deserts</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.5</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/premium-photo/indian-traditional-mix-sweet-food_55610-2712.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>sweets</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.4</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/premium-photo/neapolitan-photorealistic-product-photography-sweet-trio-strawberry-vanilla-ai-generated_570631-4470.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>Ice creams</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.3</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/fresh-cola-drink-with-green-lime_144627-12393.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>mocktails</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.6</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/lobster-spices-gourmet-seafood-dish_23-2148708701.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>sea food</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.9</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/healthy-fruits-smoothie_144627-17460.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>juices</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.4</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/noodle-soup-winter-meals-seeds_23-2148717411.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>soups</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.1</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/tasty-pakistani-dish-top-view_23-2148825150.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>Mutton </h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>5.0</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/premium-photo/pizza-isolate-white-background-generative-ai_74760-2619.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>Pizza</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.6</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/premium-photo/hamburger-with-cheddar-cheese-wooden-board_106885-2481.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>burgers</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.2</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/premium-photo/delicious-shawarma-with-meat-vegetables-black-background_856795-8081.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>Rolls</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.4</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/top-chiken-stew-with-garlic-tomato-sauce-served-with-spices-wooden-board_140725-12330.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>curries</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.1</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/azerbaijani-gutab-stuffed-flatbreads-with-minced-meat-herbs_140725-1437.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>Butter nan</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.9</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/premium-photo/pan-mushrooms-with-basil-leaves-side_727939-2500.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>Mushrooms</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.5</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/iced-cocktails-drinking-glass_1203-9533.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>cool drinks</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.8</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-vector/vector-fast-food-set-realistic-hamburger-classic-burger-potatoes-french-fries-red-package-box-blank-cardboard-cup-soft-drinks-with-straw-isolated-colorful-blur-background_1284-47912.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>fries</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>3.9</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/side-view-fried-fish-with-arugula-lemon-tomato-sauce-tray_176474-3079.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>fish items</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.4</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/premium-photo/fried-eggs-frying-pan-isolate-white-background-generative-ai_74760-2709.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>egg items</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>4.7</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-card shadow-lg mb-5">
+                                <img src='https://img.freepik.com/free-photo/side-view-jug-with-red-wine-grape-dark-horizontal_176474-4227.jpg' class="starters w-100 " />
+                                <div class=" d-flex flex-row">
+                                    <div>
+                                        <h1 class='veg-h1 pt-3 '>Wine only offline available</h1>
+                                    </div>
+                                    <img src="https://img.freepik.com/premium-vector/green-star-vector-icon-green-vector-star-curved-square_302321-383.jpg" class="rating-img ml-auto" />
+                                    <div>
+                                        <p class='rating'>5.0</p>
+                                    </div>
+                                </div>
+                                <a href="" class="veg-starters-link">View all
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class='container-fluid'>
+                                <div class='row'>
+                                    <div class="col-12">
+                                        <h3 class="heading-contact">Our Delivery Partners</h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <marquee direction="left">
+                                            <img src="https://1000logos.net/wp-content/uploads/2021/05/Swiggy-logo-768x432.png" class="partners " />
+                                            <img src="https://1000logos.net/wp-content/uploads/2021/06/Zomato-logo-768x432.png" class="partners " />
+                                            <img src="https://1000logos.net/wp-content/uploads/2023/04/Dominos-logo-768x432.png" class="partner" />
+                                            <img src="https://1000logos.net/wp-content/uploads/2021/04/Uber-Eats-logo-768x432.png" class="partners " />
+                                            <img src="https://1000logos.net/wp-content/uploads/2017/05/Pizza-Hut-logo-640x441.png" class="partners " />
+                                            <img src="https://1000logos.net/wp-content/uploads/2023/01/Gofood-logo-768x432.png" class="partner " />
+                                            <img src="https://1000logos.net/wp-content/uploads/2020/10/Deliveroo-logo-768x375.png" class="partners" />
+                                            <img src="https://www.freshmenu.com/images/fm-header-logo.svg" class="partner w-100" />
+                                            <img src="https://product-assets.faasos.io/production/product/rectangle_logo_1558961919264_brand_logos_rectangle_CF.png" class="partners w-100" />
+                                        </marquee>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-bg-follow pt-5 pb-5">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class=" text-center mt-5 col-12 col-md-4 ">
+                                        <img src="https://img.freepik.com/premium-vector/indian-restaurant-vector-icon-with-elephant-green-leaf-spice-tea-traditional-food-india-cuisine-chef-menu-isolated-symbol-with-orange-head-elephant-animal-ganesh-god_8071-9474.jpg" class="logger " />
+                                        <div class="d-flex flex-row justify-content-center ">
+                                            <div class='icon-setting '><i class="fab fa-google icons-imgs"></i></div>
+                                            <div class="icon-setting "><i class="fab fa-twitter  icons-imgs"></i></div>
+                                            <div class="icon-setting "><i class="fa fa-instagram  icons-imgs"></i></div>
+                                            <div class="icon-setting "><i class="fa fa-linkedin  icons-imgs"></i></div>
+                                        </div>
+                                        <p class="col-12 sub-paras"> <span class="spany">Indian</span> <span class="spa">Restaurent</span> 6-25, vizianagaram, Andhra Pradesh, India.</p>
+                                    </div>
+                                    <div class='col-12 col-md-4 d-flex flex-row justify-content-center'>
+                                        <div class="pt-3">
+                                            <h1 class="heading-contact">Contact Us</h1>
+                                            <div class="d-flex flex-row"><i class="fa fa-envelope icons-imgs"></i>
+                                                <p class="sub-paras">saragadachakravarthi@gmail.com</p>
+                                            </div>
+                                            <div class="d-flex flex-row"><i class="fa fa-phone icons-imgs"></i>
+                                                <p class="sub-paras"> Toll Free +91 111 022 0000</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p class="sub-paras">Chakri</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-12 col-md-4 d-flex flex-row justify-content-center'>
+                                        <div class="pt-3">
+                                            <h1 class="heading-contact">Let Us Help You</h1>
+                                            <p class="sub-paras">100% Purchase</p>
+                                            <p class="sub-paras">Protection</p>
+                                            <p class="sub-paras">Your Account</p>
+                                            <p class="sub-paras">Return Center</p>
+                                            <p class="sub-paras">Help</p>
+                                        </div>
+                                    </div>
+                                    <hr class="horizontal-lines" />
+                                    <div class=" col-12 ">
+                                        <div class="text-center d-flex flex-row justify-content-center "><i class="fa fa-copyright icon"></i>
+                                            <p class="sub-paras">2023 by Chakri. Created with Bootstrap.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionvegstarters">
+            <div class='bg'>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="veg-starters-heading pt-5 ">Veg Starters</h1>
+                            <p class="veg-starters-description">Explore hot & spicy veg-starters that are most top rated in our Restaurent</p>
+                            <div class="text-right">
+                                <button class="back-button1" onclick="display('sectionmenu')">Back</button>
+                            </div>
+                            <hr class="horizontal-line">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg" class="veg-starter-img w-100" />
+                                <h1>Paneer kabab</h1>
+                                <h1 class="veg-cost">Rs 369/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/premium-photo/mushroom-65-starter-appetiser-food-recipe-from-india-served-plate-with-ketchup-selective-focus_466689-23765.jpg" class="veg-starter-img w-100" />
+                                <h1>Mushroom 65</h1>
+                                <h1 class="veg-cost">Rs 249/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/free-photo/pork-meatballs-dark-surface_1150-43614.jpg" class="veg-starter-img w-100" />
+                                <h1>Manchuria</h1>
+                                <h1 class="veg-cost">Rs 199/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/premium-photo/crispy-potli-samosa-veg-money-bags-are-delicious-indian-snacks-spiced-aloo-mix-veggies-meat-kheema-stuffed-flaky-dough-it-s-great-creative-starter-appetiser_466689-39067.jpg" class="veg-starter-img w-100" />
+                                <h1>Mamos</h1>
+                                <h1 class="veg-cost">Rs 239/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/premium-photo/moong-dal-vada-mungode-pakoda-dalwada-pakora-mungdal-bhajiya-yellow-split-gram-fritters-served-with-tomato-ketchup_466689-73018.jpg?" class="veg-starter-img w-100" />
+                                <h1>Corn balls</h1>
+                                <h1 class="veg-cost">Rs 129/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/premium-photo/chilli-paneer-dry-is-made-using-cottage-cheese-indo-chinese-food_466689-76963.jpg" class="veg-starter-img w-100" />
+                                <h1>Crispy paneer</h1>
+                                <h1 class="veg-cost">Rs 399/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/free-photo/baked-potato-with-herbs-sauce-vegan-food-healthy-meal_2829-6951.jpg" class="veg-starter-img w-100" />
+                                <h1>Baked potato</h1>
+                                <h1 class="veg-cost">Rs 99/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 col-xl-3">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/free-photo/samosas-with-chicken-fillet-green-herbs_2829-10800.jpg" class="veg-starter-img w-100" />
+                                <h1>Roasted samosa</h1>
+                                <h1 class="veg-cost">Rs 419/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionnonvegstarters">
+            <div class='bg'>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="veg-starters-heading pt-5 ">Non-Veg Starters</h1>
+                            <p class="veg-starters-description">Explore hot & spicy Non-veg starters made by the international chefs.</p>
+                            <div class="text-right">
+                                <button class="back-button1 " onclick="display('sectionmenu')">Back</button>
+                            </div>
+                            <hr class="horizontal-line">
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-6 col-xl-4">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/premium-photo/chilli-chicken-dry-is-popular-indo-chinese-dish-chicken-hakka-chinese-heritage_466689-77145.jpg" class="veg-starter-img w-100" />
+                                <h1>Chicen fry</h1>
+                                <p>12pcs per pack</p>
+                                <h1 class="veg-cost">Rs 599/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-6 col-xl-4">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/free-photo/bbq-with-variety-meats-complete-with-tomatoes-bell-peppers-white-plate_1150-22588.jpg" class="veg-starter-img w-100" />
+                                <h1>Grilled chicken kabab</h1>
+                                <p>3pcs per pack</p>
+                                <h1 class="veg-cost">Rs 659/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-6 col-xl-4">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/free-photo/stir-fried-shrimp-with-chili-paste_1150-38070.jpg" class="veg-starter-img w-100" />
+                                <h1>Prawn fry</h1>
+                                <p>7pcs per pack</p>
+                                <h1 class="veg-cost">Rs 999/-</h1>
+    
+                                <div class="but">
+                                    <button class='butt'>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-6 col-xl-4">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/premium-photo/steamed-egg-crab-with-fresh-milk_1339-115855.jpg" class="veg-starter-img w-100" />
+                                <h1>Crabs Roast</h1>
+                                <p>2pcs per pack</p>
+                                <h1 class="veg-cost">Rs 499/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-6 col-xl-4">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/premium-photo/lobster-with-vegetable-lemon-black-slate-plate_1339-78939.jpg" class="veg-starter-img w-100" />
+                                <h1>Sea Lobster fry</h1>
+                                <p> only 1pc per pack</p>
+                                <h1 class="veg-cost">Rs 1999/-</h1>
+    
+                                <div class="but">
+                                    <button class='butt'>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-6 col-xl-4">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/free-photo/high-angle-shot-delicious-hot-spicy-dish-called-drums-heaven-table_181624-50861.jpg" class="veg-starter-img w-100" />
+                                <h1>Lollypops</h1>
+                                <p>5pcs per pack</p>
+                                <h1 class="veg-cost">Rs 399/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-6 col-xl-4">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/premium-photo/top-view-tandoori-chicken-served-with-online-chutney-plate_271326-845.jpg" class="veg-starter-img w-100" />
+                                <h1>Leg joints</h1>
+                                <p>3pcs per pack</p>
+                                <h1 class="veg-cost">Rs 399/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-6 col-xl-4">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/premium-photo/fried-chicken-wings-glazed-honey-sauce_127425-788.jpg" class="veg-starter-img w-100" />
+                                <h1>Fried wings</h1>
+                                <p>10pcs per pack</p>
+                                <h1 class="veg-cost">Rs 499/-</h1>
+                                <div class="but">
+                                    <button class='butt'>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-6 col-xl-4">
+                            <div class="veg-starters-card shadow pt-2 mb-3 mt-3">
+                                <img src="https://img.freepik.com/free-photo/fried-chicken-liver-with-onions-herbs_2829-19702.jpg" class="veg-starter-img w-100" />
+                                <h1>Mutton liver</h1>
+                                <p>10pcs per pack</p>
+                                <h1 class="veg-cost">Rs 1099/-</h1>
+    
+                                <div class="but">
+                                    <button class='butt'>Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionbiryanis">
+            <div class="bg-maincontainer">
+                <div class="container">
+                    <div class="row">
+                        <div class='col-12 '>
+                            <h1 class="main-h1-biryani">Biryani's...</h1>
+                        </div>
+                        <div class="col-12">
+                            <p class="biryani-para">Eating biryani in your favourite place, with same old friends is still a dream for many & A full plate of Biryani is the solution to every problem.</p>
+                        </div>
+                        <div class="col-12">
+                            <p class="biryani-para">Explore our delicious and tasty biryani to chill.</p>
+                        </div>
+                        <div class="text-right">
+                            <button class="back-button1 " onclick="display('sectionmenu')">Back</button>
+                        </div>
+                        <hr class="biryani-hr-line">
+                        <div class="col-12 col-md-8 col-lg-4 mb-3 p-2">
+                            <div class="cards  shadow-lg ">
+                                <img src="https://img.freepik.com/premium-photo/chicken-biriyani-using-jeera-rice-arranged-earthenware-with-raitha-grey-background_527904-8.jpg" class="biryanis-img w-100" />
+                                <h1 class="heading-biryani ">Hyd spl dum biryani</h1>
+                                <p>Rs 279/-</p>
+                                <div class="b">
+                                    <button class="bu">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-4 mb-3 p-2">
+                            <div class="cards  shadow-lg ">
+                                <img src="https://img.freepik.com/premium-photo/traditional-hyderabadi-chicken-dum-biryani-made-basmati-rice-cooked-with-masala-spices-served-with-onion-raita-salan-selective-focus_726363-4.jpg" class="biryanis-img w-100" />
+                                <h1 class="heading-biryani ">fry piece biryani</h1>
+                                <p>Rs 399/-</p>
+                                <div class="b">
+                                    <button class="bu">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-4 mb-3 p-2">
+                            <div class="cards shadow-lg ">
+                                <img src="https://img.freepik.com/premium-photo/restaurant-style-spicy-chicken-biryani-wooden-bowl-with-raita-salan-popular-indian-pakistani-food_466689-2201.jpg" class="biryanis-img w-100" />
+                                <h1 class="heading-biryani ">joint biryani</h1>
+                                <p>Rs 299/-</p>
+                                <div class="b">
+                                    <button class="bu">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-4 mb-3 p-2">
+                            <div class="cards shadow-lg ">
+                                <img src="https://img.freepik.com/premium-photo/group-home-delivered-indo-chinese-food-plastic-packages-containers-boxes-containing-schezwan-noodles-fried-rice-chilli-chicken-manchurian-soup_466689-1411.jpg" class="biryanis-img w-100" />
+                                <h1 class="heading-biryani ">family pack</h1>
+                                <p>Rs 599/-</p>
+                                <div class="b">
+                                    <button class="bu">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-4 mb-3 p-2">
+                            <div class="cards shadow-lg ">
+                                <img src="https://img.freepik.com/premium-photo/dum-handi-muttona-biryania-gosht-pilaf-is-prepared-earthen-clay-pot-called-haandi-1-kilo-size-popular-indian-non-vegetarian-fooda_466689-52429.jpg" class="biryanis-img w-100" />
+                                <h1 class="heading-biryani ">mutton biryani</h1>
+                                <p>Rs 499/-</p>
+                                <div class="b">
+                                    <button class="bu">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-4 mb-3 p-2">
+                            <div class="cards shadow-lg ">
+                                <img src="https://img.freepik.com/premium-photo/indian-vegetable-pulav-biryani-made-using-basmati-rice-served-terracotta-bowl-selective-focus_466689-55615.jpg" class="biryanis-img w-100" />
+                                <h1 class="heading-biryani ">veg biryani</h1>
+                                <p>Rs 199/-</p>
+                                <div class="b">
+                                    <button class="bu">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-4 mb-3 p-2">
+                            <div class="cards shadow-lg ">
+                                <img src="https://img.freepik.com/premium-photo/tawa-pulao-pulav-pilaf-pilau-is-indian-street-food-made-using-basmati-rice-vegetables-spices-selective-focus_466689-70775.jpg" class="biryanis-img w-100" />
+                                <h1 class="heading-biryani ">paneer biryani</h1>
+                                <p>Rs 299/-</p>
+                                <div class="b">
+                                    <button class="bu">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-4 mb-3 p-2">
+                            <div class="cards shadow-lg">
+                                <img src="https://img.freepik.com/premium-photo/egg-biryani-basmati-rice-cooked-with-masala-roasted-eggs-spices-served-with-yogurt-selective-focus_466689-24872.jpg" class="biryanis-img w-100" />
+                                <h1 class="heading-biryani ">egg biryani</h1>
+                                <p>Rs 199/-</p>
+                                <div class="b">
+                                    <button class="bu">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionsalads">
+            <div class="background">
+                <div class="container">
+                    <div class="row">
+                        <div class='col-12'>
+                            <h1>Salads....</h1>
+                            <p>"Eating a salad is not about the lettuce. It's about the dressing, the toppings, and the company you keep."<br />Chop, chop! Time to lettuce enjoy a tasty salad.</p>
+                            <div class="text-right">
+                                <button class="back-button2" onclick="display('sectionmenu')">Back</button>
+                            </div>
+                            <hr class="horizontal-line">
+                        </div>
+                        <div class="col-12 ">
+                            <div class="cardsalad shadow-lg m-4">
+                                <div class="d-flex flex-row">
+                                    <img src="https://img.freepik.com/free-photo/top-view-delicious-fruit-salad-inside-plate-with-fresh-fruits-gray-fruit-tree-exotic-tropical-photo-ripe-diet_140725-109945.jpg" class="imagesalad w-100 col-6 col-md-4 " />
+                                    <div class=" pt-4 col-3 col-md-4 ">
+                                        <h1 class="h11">Fruit salads</h1>
+                                        <p>6 types of fruits mixed</p>
+                                        <p class="saladpara">Rs 299/-</p>
+                                        <button class='mainswitch mb-3'>Order Now</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="https://img.freepik.com/free-vector/creative-memphis-style-sale-price-tag-banner-design_1017-15630.jpg" class="offers w-100" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 ">
+                            <div class="cardsalad shadow-lg m-4">
+                                <div class="d-flex flex-row">
+                                    <img src="https://img.freepik.com/premium-photo/fruit-chaat-is-tangy-indian-dish-made-by-combining-chilled-juicy-fruits-like-apples-bananas-oranges-grapes-with-salt-mild-spices_466689-3989.jpg" class="imagesalad w-100 col-6 col-md-4" />
+                                    <div class=" pt-4 col-3 col-md-4">
+                                        <h1 class="h11">Fruit salads</h1>
+                                        <p>5 types of fruits mixed</p>
+                                        <p class="saladpara">Rs 199/-</p>
+                                        <button class='mainswitch mb-3'>Order Now</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="https://img.freepik.com/premium-vector/today-sale-banner-vector-template-design_1588-908.jpg" class="offers w-100" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 ">
+                            <div class="cardsalad shadow-lg m-4">
+                                <div class="d-flex flex-row">
+                                    <img src="https://img.freepik.com/premium-photo/nuts-dried-fruits-dried-apricots-figs-prunes-raisins-cranberries-pecans-walnuts-pistachios-cashews-hazelnuts-almonds-other-food-background-top-view_630207-3066.jpg" class="imagesalad w-100 col-6 col-md-4 " />
+                                    <div class=" pt-4 col-3 col-md-4">
+                                        <h1 class="h11">Dryfruit salads</h1>
+                                        <p>8 types of dryfruits mixed</p>
+                                        <p class="saladpara">Rs 369/-</p>
+                                        <button class='mainswitch mb-3'>Order Now</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="https://img.freepik.com/premium-vector/paint-smear-web-banner-business-card-50-percent-discount-template-vector-illustration_532963-2921.jpg" class="offers w-100" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="cardsalad shadow-lg m-4">
+                                <div class="d-flex flex-row">
+                                    <img src="https://img.freepik.com/free-photo/mixed-fruit-white-plate_74190-4825.jpg" class="imagesalad w-100 col-6 col-md-4" />
+                                    <div class=" pt-4 col-3 col-md-4">
+                                        <h1 class="h11">wetfruit salads</h1>
+                                        <p>5 types of fruits mixed</p>
+                                        <p class="saladpara">Rs 250/-</p>
+                                        <button class='mainswitch mb-3'>Order Now</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="https://img.freepik.com/premium-vector/sale-advertisement-discount-with-40-percent-paper-style-vector-illustration-with-realistic-shadow_142957-300.jpg" class="offers w-100" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="cardsalad shadow-lg m-4">
+                                <div class="d-flex flex-row">
+                                    <img src="https://img.freepik.com/free-photo/top-view-delicious-fruit-salad-inside-plate-with-fresh-fruits-gray-fruit-tree-exotic-tropical-photo-ripe-diet_140725-109947.jpg" class="imagesalad w-100 col-6 col-md-4" />
+                                    <div class=" pt-4 col-3 col-md-4">
+                                        <h1 class="h11">Fruit salads</h1>
+                                        <p>11 types of fruits mixed</p>
+                                        <p class="saladpara">Rs 499/-</p>
+                                        <button class='mainswitch mb-3'>Order Now</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="https://img.freepik.com/free-vector/special-offer-creative-sale-banner-design_1017-16284.jpg" class="offers w-100" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionoffers">
+            <div class="gtr">
+                <div class="container">
+                    <div class="row">
+                        <div class="text-right">
+                            <button class="back-button " onclick="display('sectionrestaurenthomepage')">Back</button>
+                        </div>
+                        <div class="col-12">
+                            <h1 class="main-headingra">Explore Deals & Offers</h1>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 p-3">
+                            <div class="card0 shadow p-2">
+                                <div class="col-12">
+                                    <h2 class="sec-heading">Up to 60% Off for New users orders upon 499/- | Top ordered items</h2>
+                                </div>
+    
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="p-3 text-center col-6">
+                                        <img src="https://img.freepik.com/free-psd/asian-delicious-food-social-media-template_505751-2966.jpg" class="image-props w-100">
+                                        <p class="parado">Biryanis</p>
+                                    </div>
+                                    <div class="p-3 text-center col-6">
+                                        <img src="https://img.freepik.com/free-psd/food-menu-delicious-pizza-social-media-banner-template_106176-1328.jpg" class="image-props w-100">
+                                        <p class="parado">Pizzas</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-center ">
+                                    <div class="p-3 text-center col-6">
+                                        <img src="https://img.freepik.com/premium-vector/asian-food-social-media-post_184659-469.jpg" class="image-props w-100">
+                                        <p class="parado">sea food</p>
+                                    </div>
+                                    <div class="p-3 text-center col-6">
+                                        <img src="https://img.freepik.com/premium-psd/roast-chicken-social-media-food-banner-template_609989-697.jpg" class="image-props w-100">
+                                        <p class="parado">Grilled chicken</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 p-3">
+                            <div class="card6 shadow p-3">
+                                <div class="col-12">
+                                    <h2 class="sec-heading"> offers on ice-creams</h2>
+                                    <p class="parado">The more delicious ever and ever and ever.....</p>
+                                </div>
+                                <div class="col-12">
+                                    <img src="https://img.freepik.com/free-vector/ice-cream-summer-sale-illustration_1284-9705.jpg" class="image-props w-100" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 p-3">
+                            <div class="card7 shadow p-3">
+                                <div class="col-12">
+                                    <h2 class="sec-heading">Weekend sales upto 69% OFF</h2>
+                                    <p class="parado">Once try to order...Always doesn't forget to order...!</p>
+                                </div>
+                                <div class="col-12">
+                                    <img src="https://img.freepik.com/free-photo/pizza-online-order-concept_53876-120006.jpg" class="image-props w-100" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 p-3">
+                            <div class="card2 shadow p-3">
+                                <div class="col-12">
+                                    <h2 class="sec-heading">Festive Offers on sweets & hots</h2>
+                                    <p class="parado">Make you festivals more sweety with our sweets.</p>
+                                </div>
+                                <div class="col-12">
+                                    <img src="https://img.freepik.com/premium-psd/diwali-special-sweets-social-media-instagram-post-template_193552-182.jpg" class="image-props w-100" />
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-md-6 col-lg-4 p-3">
+                            <div class="card3 shadow p-2">
+                                <div class="col-12">
+                                    <h2 class="sec-heading">Buy 1 & Get 1 offers </h2>
+                                </div>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <div class="p-3 text-center col-6">
+                                        <img src="https://img.freepik.com/premium-psd/special-desserts-pink-media-social-post-template_361928-487.jpg" class="image-props w-100">
+                                        <p class="parado">deserts</p>
+                                    </div>
+                                    <div class="p-3 text-center col-6">
+                                        <img src="https://img.freepik.com/premium-psd/pizza-banner-promotion-social-media-templates_145156-250.jpg" class="image-props w-100">
+                                        <p class="parado">pizzas</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-center ">
+                                    <div class="p-3 text-center col-6">
+                                        <img src="https://img.freepik.com/premium-psd/food-social-media-promotion-banner-post-design-template_686309-3.jpg" class="image-props w-100">
+                                        <p class="parado">Burgers</p>
+                                    </div>
+                                    <div class="p-3 text-center col-6">
+                                        <img src="https://img.freepik.com/premium-vector/template-design-promo-coffee-shop-buy-one-get-one-free-social-media-post_132515-59.jpg" class="image-props w-100">
+                                        <p class="parado">cool points</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sectionourservices">
+            <div class="bgr">
+                <div class="container">
+                    <div class='row'>
+                        <div class="col-12">
+                            <h1 class='omg-h1'>Our services</h1>
+                            <p class="pa">Most online stores offer lower prices.Online shopping makes price comparision simpler quicker.It is very convenient to shop from where you are located. It saves you the cost of driving to stores, as well as parking fees.</p>
+                        </div>
+                        <div class="col-12 col-md-4 ">
+                            <div class="cardservices shadow ">
+                                <div class="d-flex flex-column">
+                                    <img src='https://img.freepik.com/premium-photo/shipping-fast-delivery-truck-red-delivery-car-deliver-express-with-clock-delivery-transportation-logistics-concept-white-background-3d-rendering-illustration_56104-1914.jpg' class="imagelogo pt-2" />
+                                    <h2 class="second-h1">Fast and Free Delivery</h2>
+                                    <p class="para-2">Fast, freep-2, and convenient delivery choices on milliones of items.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 p-2">
+                            <div class="card shadow-lg p-2 ">
+                                <div class="d-flex flex-column">
+                                    <img src='https://img.freepik.com/premium-photo/100-money-back_869423-1305.jpg' class="imagelogo pt-2" />
+                                    <h2 class="second-h1">100% Money back gurantee</h2>
+                                    <p class="para-2">This is probably the most popular gurantee in the world.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 p-2">
+                            <div class="card shadow-lg p-2">
+                                <div class="d-flex flex-column">
+                                    <img src='https://img.freepik.com/premium-photo/rendering-illustration-stopwatch-with-24h_165073-1205.jpg' class="imagelogo" />
+                                    <h2 class="second-h1">Online Support 24/7</h2>
+                                    <p class="para-2">Our Online Support will provide you with many useful functions, valuable information, tips.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </body>
+    
+</html>
